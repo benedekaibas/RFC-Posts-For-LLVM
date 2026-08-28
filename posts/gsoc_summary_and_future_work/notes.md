@@ -46,4 +46,9 @@ goal, key implementation, what did I achieve, what is next ---------------------
 
 ## The Implementation Section
 
+First start with the difference between the two checkers and how the annotations is recognized in the ProgramState.
 
+Then I can get to the binding how the annotated parameter is bound to the return value. Or in case the function's
+return is annotated how that works in the checker.
+
+These are two separate implementation details, so it would be great if I can present them side-by-side somehow (stylisticly).
