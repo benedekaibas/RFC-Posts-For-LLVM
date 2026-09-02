@@ -3,7 +3,7 @@
 ## What is the post about?
 
 This post should have multiple purposes:
-- What is the GSoC about
+- What is the GSoC about - EDIT: IRRELEVANT AS IT IS. CORRECT: What is THIS GSoC about
 - What did I achieve
 - Technical details
 - Future work
