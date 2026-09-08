@@ -15,6 +15,6 @@ The purpose of implementing these checkers are:
 
 The CSA does a path sensitive analysis while the compiler level analysis performs an intraprocedural analysis. A great example for this:
 
-<ADD THE PICTURE HERE THAT I MAKE ABOUT THE NOT FULLY ANNOTATED FUNCTION CALLS CHAIN>
+![Picture One](RFC-Posts-For-LLVM/pictures/func-chain-comparison.png)
 
 If any of the functions are not annotated in the function call chain then the intraprocedural analysis fails.
