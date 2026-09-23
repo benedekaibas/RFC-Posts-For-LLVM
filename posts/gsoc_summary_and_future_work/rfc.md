@@ -45,6 +45,6 @@ REGISTER_MAP_WITH_PROGRAMSTATE(LifetimeBoundMap, SVal, LifetimeSourceSet)
 
 The CSA does a path sensitive analysis while the compiler level analysis performs an intraprocedural analysis. A great example for this:
 
-![Picture One](../ictures/func-chain-comparison.png)
+![Picture One](/pictures/func-chain-comparison.png)
 
 If any of the functions are not annotated in the function call chain then the intraprocedural analysis fails.
