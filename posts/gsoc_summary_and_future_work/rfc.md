@@ -39,8 +39,6 @@ REGISTER_SET_FACTORY_WITH_PROGRAMSTATE(LifetimeSourceSet, const MemRegion *)
 REGISTER_MAP_WITH_PROGRAMSTATE(LifetimeBoundMap, SVal, LifetimeSourceSet)
 ```
 
-
-
 ### What are these cases?
 
 The CSA does a path sensitive analysis while the compiler level analysis performs an intraprocedural analysis. A great example for this:
